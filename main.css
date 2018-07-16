@@ -40,6 +40,11 @@
 	background-image: url(original_Ent_dreamed.jpg);
 }
 
+.rw-1 {
+	padding-top: 25px;
+	padding-left: 100px;
+}
+
 body {
 	position: relative;
 	background-color: #dddddd;
