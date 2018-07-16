@@ -31,9 +31,10 @@
 }
 
 .jumbo-bg1 {
+	font-family: sans-serif !important; 
 	padding-top: 251px;
 	padding-bottom: 251px;
-	background-image: url(LaserResearch2018.jpg);
+	background-image: url(OldScienceBLD.jpg);
 }
 
 .jumbo-bg2 {
