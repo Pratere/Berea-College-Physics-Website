@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<title>SPS Berea College</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <!-- Latest compiled and minified CSS -->
@@ -19,34 +20,19 @@
 	<h1>Berea College</h1>
 	<h3>Society of Physics Students</h3>
 </div>
-<nav class="navbar navbar-default" data-spy="affix" data-offset-top="210">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="About.html">Berea College Physics</a>
-		</div>
-		<div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav">
-				<li><a href="About.html">About</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="Faculty.html">Faculty</a></li>
-				<li><a href="https://physics.berea.edu/apollo/index.php">Courses</a><li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown">SPS
-					<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li class="active"><a href="#">About</a><li>
-						<li><a href="#">Events</a><li>
-						<li><a href="MembersSPS.html">Members</a><li>
-						<li><a href="ContactSPS.html">Contact</a><li>
-			</ul>
-		</div>
+<!--Navigation bar-->
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+	<div id="nav-placeholder">
+
 	</div>
 </nav>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
 <div class="container fluid">
 	<h1>About Berea College Physics</h1>
 	<div class="row">

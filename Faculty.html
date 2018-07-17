@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<title>SPS Berea College</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <!-- Latest compiled and minified CSS -->
@@ -19,35 +20,18 @@
 	<h1>Berea College</h1>
 	<h3>Society of Physics Students</h3>
 </div>
+<!--Navigation bar-->
 <nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="About.html">Berea College Physics</a>
-		</div>
-		<div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav">
-				<li><a href="About.html">About</a></li>
-				<li><a href="#">Events</a></li>
-				<li class="active"><a href="Faculty.html">Faculty</a></li>
-				<li><a href="https://physics.berea.edu/apollo/index.php">Courses</a><li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown">SPS
-					<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="AboutSPS.html">About</a><li>
-						<li><a href="#">Events</a><li>
-						<li><a href="MembersSPS.html">Members</a><li>
-						<li><a href="ContactSPS.html">Contact</a><li>
-					</a>
-			</ul>
-		</div>
+	<div id="nav-placeholder">
+
 	</div>
 </nav>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
 <div class="container-fluid rw-1">
 	<div class="row" style="margin-bottom: 25px;">
 		<div class="col-lg-4">
@@ -58,7 +42,7 @@
 	</div>
 	<div class="row" style="margin-bottom: 25px;">
 		<div class="col-lg-4">
-			<h4><strong>Martin Y. Veillette</strong></h4><p>Associate Professor<br/>
+			<h4><a href="https://physics.berea.edu/veillettem.php"><strong>Martin Y. Veillette</strong></a></h4><p>Associate Professor<br/>
 			Department of Physics<br/>CPO 2015<br/>Office: Room 111<br/>
 			Phone: (859) 985-3299<br/>Email: <a href="mailto:veillettem@berea.edu">veillettem@berea.edu</a></p>
 		</div>
@@ -68,7 +52,7 @@
 	</div>
 	<div class="row" style="margin-bottom: 25px;">
 		<div class="col-lg-4">
-			<h4><strong>Troy Messina</strong></h4><p>Associate Professor<br/>
+			<h4><a href="https://physics.berea.edu/messinat_internal.php"><strong>Troy Messina</strong></a></h4><p>Associate Professor<br/>
 			Department of Physics<br/>CPO 2191<br/>Office: Room 112<br/>
 			Phone: (859) 985-3326<br/>Email: <a href="mailto:troy_messina@berea.edu">troy_messina@berea.edu</a></p>
 		</div>

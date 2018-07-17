@@ -1,7 +1,7 @@
 .navbar {
 	font-size: 12px;
-	background-color: #eeeeee;
 	border-color: transparent;
+	border-bottom: 0px;
 }
 
 .navbar-header {
@@ -14,6 +14,10 @@
 
 .navbar-header a:hover {
 	color: #0000ff !important;
+}
+
+.tutor-pic {
+	margin-bottom: 10px;
 }
 
 .jumbotron {
@@ -39,6 +43,10 @@
 
 .jumbo-bg2 {
 	background-image: url(original_Ent_dreamed.jpg);
+}
+
+.jumbo-bg3 {
+	background-image: url(PlanetariumBG.jpeg);
 }
 
 .rw-1 {
