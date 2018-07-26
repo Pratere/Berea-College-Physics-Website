@@ -30,23 +30,54 @@
 	color: #ffffff;
 }
 
+.content { 
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
 .footer-office {
 	padding-bottom: 5px !important;
 }
 
 .jumbo-bg1 {
-	font-family: sans-serif !important; 
+	font-family: 'Karla' !important;
+	color: #ffffff; 
 	padding-top: 251px;
 	padding-bottom: 251px;
-	background-image: url(OldScienceBLD.jpg);
+	/* The image used */
+	background-image: url('OldScienceBLD.jpg');
+
+	/* Full height */
+	height: 100%; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .jumbo-bg2 {
 	background-image: url(original_Ent_dreamed.jpg);
+	/* Full height */
+	height: 100%; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .jumbo-bg3 {
 	background-image: url(PlanetariumBG.jpeg);
+	/* Full height */
+	height: 100%; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .rw-1 {
@@ -72,7 +103,7 @@ body {
      position: relative;
      top: 50px;
   }
-
-p {
-
+}
+.parralax {
+	
 }
