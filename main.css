@@ -93,6 +93,11 @@
 .rw-1 {
 	padding-top: 25px;
 	padding-left: 100px;
+	font-size: 150%;
+}
+
+.rw-2 {
+	font-size: 105%;
 }
 
 body {
