@@ -16,12 +16,17 @@
 	color: #0000ff !important;
 }
 
+.content {
+	padding-top: 0vh;
+}
+
 .tutor-pic {
 	margin-bottom: 10px;
 }
 
 .jumbotron {
 	margin-bottom: 0px;
+	margin-top: 0px;
 	background-size: cover;
 }
 
@@ -30,24 +35,20 @@
 	color: #ffffff;
 }
 
-.content { 
-	background-color: rgba(0, 0, 255, 0.5);
-}
-
 .footer-office {
 	padding-bottom: 5px !important;
 }
 
 .jumbo-bg1 {
 	font-family: 'Karla' !important;
-	color: #ffffff; 
-	padding-top: 251px;
-	padding-bottom: 251px;
+	color: #ffffff;
+	padding-top: 2vh;
+
 	/* The image used */
 	background-image: url('OldScienceBLD.jpg');
 
 	/* Full height */
-	height: 100%; 
+	height: 100vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -56,10 +57,17 @@
 	background-size: cover;
 }
 
+.logo-container {
+	padding-top: 0vh;
+	padding-left: 0vh;
+}
+
 .jumbo-bg2 {
-	background-image: url(original_Ent_dreamed.jpg);
+	background-image: url(PlanetariumBG.jpeg);
+	padding-top: 2vh;
+
 	/* Full height */
-	height: 100%; 
+	height: 30vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -70,8 +78,10 @@
 
 .jumbo-bg3 {
 	background-image: url(PlanetariumBG.jpeg);
+	padding-top: 2vh;
+
 	/* Full height */
-	height: 100%; 
+	height: 30vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -103,7 +113,4 @@ body {
      position: relative;
      top: 50px;
   }
-}
-.parralax {
-	
 }
