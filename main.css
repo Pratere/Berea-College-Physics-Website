@@ -67,6 +67,25 @@
 	background-size: cover;
 }
 
+.jumbo-bg4 {
+	font-family: 'Karla' !important;
+	color: #ffffff;
+	padding-top: 2vh;
+
+	/* The image used */
+	background-image: url('PlanetariumBG.jpeg');
+
+	/* Full height */
+	height: 100vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 .jumbo-bg2 {
 	background-image: url(PlanetariumBG.jpeg);
 	padding-top: 2vh;
@@ -96,13 +115,21 @@
 }
 
 .rw-1 {
-	padding-top: 25px;
-	padding-left: 100px;
-	font-size: 150%;
+	padding-top: 2vh;
+	padding-left: 18vh;
+	padding-right: 5vh;
+	text-align: justify;
+	font-size: 110%;
 }
 
 .rw-2 {
-	font-size: 105%;
+	font-size: 110%;
+}
+
+.rw-3 {
+	padding-left: 16vh;
+	padding-right: 16vh;
+	text-align: justify;
 }
 
 body {
